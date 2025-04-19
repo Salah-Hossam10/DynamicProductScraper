@@ -13,7 +13,7 @@ The scraper collects:
 
 - Clone the repo:
   ```bash
-  git clone https://github.com/your-username/toscrape-books-selenium.git
+  git clone https://github.com/Salah-Hossam10/DynamicProductScraper.git
   cd toscrape-books-selenium
 Create and activate a virtual environment:
 python -m venv venv
