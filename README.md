@@ -34,16 +34,16 @@ products.csv (containing structured product data)
 
 ## Notes
 
-The website (books.toscrape.com) is static in design but was scraped using Selenium to demonstrate browser automation.
-Basic time.sleep() is used for delay, which can be improved with smart waits.
-Ratings were mapped from words ("Three") to numbers (3) using a dictionary.
-All price symbols (like £) were removed and converted to float.
-The script gracefully handles pagination until no "next" button is found.
+- The website (books.toscrape.com) is static in design but was scraped using Selenium to demonstrate browser automation.
+- Basic time.sleep() is used for delay, which can be improved with smart waits.
+- Ratings were mapped from words ("Three") to numbers (3) using a dictionary.
+- All price symbols (like £) were removed and converted to float.
+- The script gracefully handles pagination until no "next" button is found.
 
 
 ## Future Improvements
 
-Use WebDriverWait instead of static time.sleep()
-Add CLI arguments for dynamic URL and output file options
-Export to multiple formats: JSON, SQLite, etc.
-Implement error handling and retry logic
+- Use WebDriverWait instead of static time.sleep()
+- Add CLI arguments for dynamic URL and output file options
+- Export to multiple formats: JSON, SQLite, etc.
+- Implement error handling and retry logic
